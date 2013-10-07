@@ -23,7 +23,7 @@ Setting Up the Tiles
 
 The content of the tiles (or squares) is stored in a CSV called data/bingo.csv. It's a standard, spreadsheet-style comma-separated value with five columns, headed "B","I","N","G","O". The list of items under each letter should be the same length ... which means each row in the CSV should have 5 values (one for each letter). You need at least 5 rows, but can have more. The code will randomly pick from the entire list and put them in a random order.
 
-The columns should all be the same number of terms (so same number of items on each line) and should have the text of bingo tiles you want to include in those respective columns. Like most CSVs, if there are commas or quotes in the  that if there are commas or quite.
+The columns should all have the same number of terms (so same number of items on each line) and should have the text of bingo tiles you want to include in those respective columns. Like most CSVs, if there are commas or quotes in the text, you should escape them or quote them.
 
 Also note that if any item between the commas HAS a comma or a quote, you need to surround that item in quote marks. Like:
 
@@ -36,13 +36,13 @@ And if you're actually using a quote in the item, represent those with double-do
 Final Polishing
 ---------------
 
--- Make any other tweaks to the HTML, CSS or graphics you want to make. You might want to change the colors, replace the donkey and elephant graphics, or drop in a custom free square.
++ Make any other tweaks to the HTML, CSS or graphics you want to make. You might want to change the colors, replace the donkey and elephant graphics, or drop in a custom free square.
 
--- Upload the contents of the live_files directory to your server. If you want to embed the bingo game on a page, use the HTML code:
++ Upload the contents of the live_files directory to your server. If you want to embed the bingo game on a page, use the HTML code:
 
-<iframe src="http://mysite.url/embed.html" height="785" width="600" scrolling="no" frameborder="0"></iframe>
+&lt;iframe src="http://mysite.url/embed.html" height="785" width="600" scrolling="no" frameborder="0"&gt;&lt;/iframe&gt;
 
-... replacing mysite.url with your own embed path.
+ (but replace mysite.url with your own embed path)
 
 Note: Because the bingo game dynamically fetches information from the CSV file from the server, it won't work if you simply open the HTML files. You have to either upload them to a server and try it from there. To simulate that locally, we use Python's built-in SimpleHTTPServer, which you can launch by running "python -m SimpleHTTPServer" in the live_files directory, then going to http://localhost:8000 in your web browser.
 
