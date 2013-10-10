@@ -14,20 +14,20 @@ body {
     background-color: #ffe400;
 	text-align: center;
 }
-	#titleline {
-		margin: 0 0 10px 0;
-	}
-	#header h2 {
-		clear: both;
-		margin: 0 auto;
-		width: 559px;
-		height: 41px;
-		text-indent: -9999px;
-		overflow: hidden;
-		background: url(../img/header_bingo.png) no-repeat;
-		position: relative;
-		top: 5px;
-	}
+#titleline {
+	margin: 0 0 10px 0;
+}
+#header h2 {
+	clear: both;
+	margin: 0 auto;
+	width: 559px;
+	height: 41px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(../img/header_bingo.png) no-repeat;
+	position: relative;
+	top: 5px;
+}
 
 #meta-container {
 	text-align: center;
@@ -50,9 +50,8 @@ body {
 	background-image: url(../img/piece_bg.png);
 	text-transform: uppercase;
 	cursor: pointer;
-	}
-
 }
+
 .free {
 	background-image: url(../img/piece_free.png);
 }
