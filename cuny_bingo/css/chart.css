@@ -2,7 +2,7 @@ body {
 	background-color: #fff;
 }
 #container {
-    background-color: #ffe400;
+    background-color: #ff8d13;
 	overflow: hidden;
 }
 #map_body {
@@ -37,38 +37,38 @@ body {
     height: 590px;
 	margin: 0 auto;
 }
-	.card {
-	    width: 112px;
-	    height: 112px;
-	    font-size: 12px;
-	    line-height: 16px;
-	    float: left;
-	    margin-left: 4px;
-	    margin-bottom: 4px;
-	    display: table;
-	    background-color: #e6fdff;
-	    background-image: url(../img/piece_bg.png);
-	    text-transform: uppercase;
-		cursor: pointer;
-		}
+.card {
+	width: 112px;
+	height: 112px;
+	font-size: 12px;
+	line-height: 16px;
+	float: left;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	display: table;
+	background-color: #e6fdff;
+	background-image: url(../img/piece_bg.png);
+	text-transform: uppercase;
+	cursor: pointer;
+	}
 
-	}
-	.free {
-	    background-image: url(../img/piece_free.png);
-	}
-	.chip {
-	    background-image: url(../img/piece_chip.png);
-	}
-	.freechip {
-	    background-image: url(../img/piece_free_chip.png);
-	}
-	.card-text {
-	    margin: auto;
-	    text-align: center;
-	    vertical-align: middle;
-	    display: table-cell;
-	    padding: 4px;
-	}
+}
+.free {
+	background-image: url(../img/piece_free.png);
+}
+.chip {
+	background-image: url(../img/piece_chip.png);
+}
+.freechip {
+	background-image: url(../img/piece_free_chip.png);
+}
+.card-text {
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	padding: 4px;
+}
 
 
 
@@ -79,7 +79,7 @@ body {
 	padding: 0;
     position: relative;
 	overflow: hidden;
-	background: url(../img/animals.png) no-repeat -10px 0;
+	
 }
 #yell-button {
     position: absolute;
